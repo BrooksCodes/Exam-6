@@ -1,0 +1,42 @@
+# Probability at least 50%
+def prob_50():
+    n = 23
+    return 1 - ((364/365)**n)
+
+# Probability at least 70%
+def prob_70():
+    n = 17
+    return 1 - ((364/365)**n)
+
+# Probability at least 80%
+def prob_80():
+    n = 14
+    return 1 - ((364/365)**n)
+
+# Probability at least 90%
+def prob_90():
+    n = 10
+    return 1 - ((364/365)**n)
+
+# Probability at least 95%
+def prob_95():
+    n = 7
+    return 1 - ((364/365)**n)
+
+# Probability at least 98%
+def prob_98():
+    n = 5
+    return 1 - ((364/365)**n)
+
+# Probability at least 99%
+def prob_99():
+    n = 4
+    return 1 - ((364/365)**n)
+
+print("Probability at least 50%:", prob_50())
+print("Probability at least 70%:", prob_70())
+print("Probability at least 80%:", prob_80())
+print("Probability at least 90%:", prob_90())
+print("Probability at least 95%:", prob_95())
+print("Probability at least 98%:", prob_98())
+print("Probability at least 99%:", prob_99())
